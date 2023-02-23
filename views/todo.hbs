@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<title>Todo</title>
+<h1>To-Do List</h1>
+  <form method="post" action="/list">
+    <table>
+    {{#each items as |value key|}}
+      <tr>
+        <td><input name="item{{key}}" type="checkbox" value="done" {{#if this.done}}checked{{/if}}/>
+      <td>{{this.name}}
+    {{/each}}
+    </table>
+  </form>
+</html>
