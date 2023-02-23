@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+* {
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: rgb(3, 3, 29);
+    color: white;
+}
+
+h1, h2{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color: rgb(252, 0, 177);
+}
+
+.todo--container {
+    padding: 20px;
+}
